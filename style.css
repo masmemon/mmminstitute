@@ -1,0 +1,363 @@
+.maindiv, .prog-offered{
+    background-color: #f8f9fa;
+}
+
+.maindiv2{
+    margin-left: 40px;}
+
+@media only screen and (max-width: 575px){
+    .maindiv2{
+        margin-left: 20px;}}
+
+/* .logo{
+    width: 250px;
+    height: 50px;
+    margin-right: 130px;
+}
+
+@media only screen and (max-width: 950px){
+    .logo{
+        margin-right: 70px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .logo{
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .logo{
+        width: 100%;
+    }
+} */
+
+
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin{
+    font-size: 20px !important;   
+}
+
+
+.mainmanu{
+    margin-top: 5px;
+}
+
+
+.btn-info{
+    width: 100%;
+}
+
+.btn-outline-success{
+    width: 150px;
+}
+
+.mainmanu li{
+    padding: 10px;
+    /* background: brown !important; */
+}
+
+.navbar-nav{
+    margin-right: 45px;
+}
+
+@media only screen and (max-width: 1125px){
+    .navbar-nav{
+        margin-right: 10px;
+    }
+}
+
+
+
+#carouselExampleIndicators li, .carousel-control-next-icon{
+    padding: 1px;
+    background: gray ;
+    margin: 0px 6px;
+    border-radius: 0.2cm;
+    /* background: no-repeat 100%/100% 100% !important; */
+}
+
+.aboutus{
+    background-image: url(images/About.png);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-position: 50% 0%; */
+    background-attachment: scroll;
+    /* margin-top: 30px; */
+}
+
+.aboutus1 p{
+    /* text-align: left; */
+    /* margin-left: 40px;  */
+    line-height: 25px; 
+    letter-spacing: 1px; 
+    word-spacing: 5px;
+}
+
+
+.aboutus1{
+    position: relative;
+    left: 100px;
+    top: 110px;
+    width: 500px;
+    font-size: 0.8em;
+}
+
+@media only screen and (max-width: 620px){
+    .aboutus1{
+        position: relative;
+        left: 20px;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .aboutus1{
+        width: 450px;
+    }
+}
+
+
+@media only screen and (max-width: 510px){
+    .aboutus1{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 440px){
+    .aboutus1{
+        width: 300px;
+    }
+}
+
+
+
+.logotext{
+    margin-bottom: -30px;
+    margin-right: 100px;
+}
+
+.logotext h1{
+    color: red;
+    display: inline;
+    
+}
+
+
+
+@font-face {
+    font-family: chiller;
+    src: url(911Fonts.com_ChillerRegular__-_911fonts.com_fonts_giR0.ttf);
+  }
+
+
+  @font-face {
+    font-family: Lucida_Handwriting;
+    src: url(911Fonts.com_LucidaHandwritingItalic__-_911fonts.com_fonts_wAGX.ttf);
+  }
+
+.sm{
+    font-size: 70px;
+    font-family: "chiller";
+    /* src: url(911Fonts.com_ChillerRegular__-_911fonts.com_fonts_giR0.ttf); */
+}
+
+
+.lm{
+    font-size: 100px;
+    font-family: "Lucida_Handwriting";
+    /* src: url(911Fonts.com_LucidaHandwritingItalic__-_911fonts.com_fonts_wAGX.ttf); */
+}
+
+
+@media only screen and (max-width: 750px){
+    .logotext{
+        margin-right: 20px;
+
+    }}
+
+@media only screen and (max-width: 600px){
+        .logotext{
+            text-align: right;
+    
+        }}
+    
+
+@media only screen and (max-width: 680px){
+        .carousel-item img{
+             height: 200px;
+        
+            }}
+    
+        
+
+
+.visionmission{
+    padding: 5px;
+}
+
+.visionmission2{
+    margin-top: 20PX;
+    margin-bottom: 20px;
+}
+
+
+.visionmission2 .col-sm-6{
+    padding: 10PX;
+}
+
+ .card-text{
+    font-weight: bold;
+    color: darkblue;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card{
+    /* box-shadow: 0px 0px 5px 7px cadetblue; */
+      
+}
+
+@media only screen and (max-width: 993px){
+    .card, .card-img{
+        height: 400px;
+    } 
+}
+
+@media only screen and (max-width: 770px){
+    .card, .card-img{
+        height: 550px;
+    } 
+}
+
+@media only screen and (max-width: 575px){
+    .card, .card-img{
+        height: 500px;
+    } 
+}
+
+.prog-offered .row{
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+.thumb {
+    position: relative;
+    overflow: hidden;
+    transition: all 300ms ease-in-out 0s;
+}
+
+.img-fullwidth {
+    /* width: 100% !important; */
+    border: 0;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+.eightdiv{
+    background-color: #25272e;
+    /* margin-top: 100px; */
+    /* margin-bottom: 10px; */
+}
+
+.top{
+    margin-top: 80px;
+
+}
+.eightdiv p, li, h5{
+    color: blanchedalmond;
+}
+
+.eightdiv h5{
+    border-bottom: inset  0.5px;
+    }
+
+.connectwithus li{
+    /* display: inline-block; */
+    padding: 2px;
+}
+
+.connectwithus img{
+    width: 25px;
+    height: 25px;
+    border-radius: 0.5cm;
+    padding: 2px;
+}
+
+.connectwithus img:hover{
+    cursor: pointer;
+    /* background-color:blue; */
+}
+
+.connectwithus{
+    /* text-align: left; */
+    justify-content: left;
+    /* position: relative; */
+
+}
+
+
+
+.copyright {
+    background-color:blue;
+    /* margin-top: 80px; */
+}
+
+.copyright p{
+    font-size: 10px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+
+#upward{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 30px;
+    right: 50PX;
+    border-radius: 1cm;
+}
+
+
+.faculty{
+    background-color: #f8f9fa;
+
+}
+
+
+.program{
+    padding: 40px;
+}
+
+
+.media h5, .media-body{
+    color: black;
+}
+
+.media img{
+    width: 300px;
+    height: 250px;
+}
+
+
+@media only screen and (max-width: 767px){
+    .media{
+        display: inline-block !important;
+        text-align: center !important;
+
+}
+
+}
+
